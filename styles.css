@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    line-height: 1.64;
+}
+
+h1,
+h2 {
+    color: #00adb5;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #EEEEEE;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 1.25rem;
+    /* Place the button at the bottom of the page */
+    right: 1.875rem;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #00adb5;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: .9375rem;
+    /* Some padding */
+    border-radius: .625rem;
+    /* Rounded corners */
+    font-size: 1.125rem;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+.bg-1 {
+    padding: 3.125rem 0;
+    min-height: 47.5rem;
+    background-color: #393e46;
+}
+
+.bg-2 {
+    min-height: 47.5rem;
+    padding: 3.125rem 0;
+    background-color: #EEEEEE;
+}
+
+.top h1 {
+    margin: 9.375rem auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+}
+
+.row {
+    padding: 3.125rem;
+}
+
+#profile .row,
+#skills .row {
+    padding: 6.25rem 0;
+}
+
+.selfphoto {
+    border-radius: 50%;
+    height: 15rem;
+    max-width: 15rem;
+    margin: 0 1.875rem 1.875rem .625rem;
+    vertical-align: middle;
+}
+
+.state {
+    color: #EEEEEE;
+    line-height: 2;
+    text-align: left;
+}
+
+#experience span {
+    color: #EEEEEE;
+}
+
+.ability-title {
+    display: inline-block;
+    font-size: 1.25rem;
+    line-height: 2;
+}
+
+#education h4 {
+    color: #393e46;
+    font-weight: 700;
+}
+
+.feature-icon {
+    margin: 1.25rem 0;
+    color: #393e46;
+}
+
+.feature-icon:hover {
+    color: #00adb5;
+}
